@@ -37,7 +37,7 @@
 ## 📝 최근 블로그 포스트
 <!-- BLOG-POST-LIST:START -->
 - [[Java] 실무에서 잘 못 사용하고 있던 Transaction](https://www.coby-blog.co.kr/108db2e0-c45e-8012-89d5-ce76a9bc1ad6)
-- [[Java] GarBage Collection 튜닝](https://myblog.com/java-streams)
+- [[Java] GarBage Collection 튜닝](https://www.coby-blog.co.kr/c2b3527e-9868-4a14-b4e0-378e626d68fc)
 - [DBCP](https://www.coby-blog.co.kr/8a8ec26b-2675-442f-b7b2-893a33227627)
 <!-- BLOG-POST-LIST:END -->
 
