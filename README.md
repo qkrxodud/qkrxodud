@@ -24,7 +24,7 @@
 | 프로젝트 이름 | 설명 | 상태 |
 |---------------|------|------|
 | [LoL MBTI Calculator](https://github.com/qkrxodud/LoLXMBTICalcuator) | MBTI 유형에 맞는 LoL 포지션 추천 프로젝트 | ✅ 완료 |
-| [WebToonXcelerator](https://github.com/qkrxodud/WebToonXcelerator) |웹툰 추천사이트  | 🚧 진행 중 |
+| [courseXcelerator](https://github.com/qkrxodud/courseXcelerator) |개발 인강 추천사이트  | 🚧 진행 중 |
 
 ---
 
