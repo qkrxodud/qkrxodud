@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="1597.54" viewBox="0 0 880 1597.54">
+<defs><pattern id="g" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#161d1a" stroke-width="1"/></pattern></defs><rect width="880" height="1597.54" fill="#0f1412"/><rect width="880" height="1597.54" fill="url(#g)"/>
+<rect x="0.5" y="0.5" width="879" height="1596.54" rx="10" fill="none" stroke="#e6ebe8" stroke-opacity=".55"/>
+<path d="M1 38H879" stroke="#e6ebe8" stroke-opacity=".35"/>
+<text x="440.0" y="24" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" font-weight="400" fill="#98a29c" text-anchor="middle">~/qkrxodud — zsh</text>
+<circle cx="20" cy="19" r="6" fill="#ff5f57"/>
+<circle cx="39" cy="19" r="6" fill="#febc2e"/>
+<circle cx="58" cy="19" r="6" fill="#28c840"/>
+<text x="34" y="76" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" xml:space="preserve"><tspan fill="#4ebe7d">➜ </tspan><tspan fill="#98a29c">~/qkrxodud </tspan><tspan fill="#6f7a74">git:(</tspan><tspan fill="#4ebe7d">main</tspan><tspan fill="#6f7a74">)</tspan></text>
+<text text-anchor="end" x="846" y="76" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13" xml:space="preserve"><tspan fill="#c3ccc7">blog</tspan><tspan fill="#c3ccc7">   repos</tspan><tspan fill="#c3ccc7">   posts</tspan><tspan fill="#c3ccc7">   mail</tspan></text>
+<text x="34" y="114" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="28" font-weight="700" fill="#e6ebe8" text-anchor="start">박태영 · 코징</text>
+<text x="34" y="144" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#98a29c" text-anchor="start">// Java, Spring, 데이터베이스를 파고드는 백엔드 개발자</text>
+<rect x="34.5" y="164.5" width="811" height="38" rx="6" fill="none" stroke="#2a322e" stroke-dasharray="4 4"/>
+<circle cx="54" cy="184" r="4" fill="#4ebe7d"/>
+<text x="68" y="188" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13" xml:space="preserve"><tspan fill="#98a29c">블로그 글 </tspan><tspan fill="#e6ebe8">231</tspan><tspan fill="#98a29c">편  ·  연재 </tspan><tspan fill="#e6ebe8">18</tspan><tspan fill="#98a29c">종  ·  </tspan><tspan fill="#e6ebe8">2022</tspan><tspan fill="#98a29c">년부터 기록 중</tspan></text>
+<text x="34" y="240" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" xml:space="preserve"><tspan fill="#4ebe7d">$ </tspan><tspan fill="#e6ebe8">cat stack.txt</tspan></text>
+<text x="34" y="266" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12.5" xml:space="preserve"><tspan fill="#6f7a74">backend  </tspan><tspan fill="#c3ccc7">Java · Spring Boot · JPA · MyBatis · WebFlux</tspan></text>
+<text x="34" y="286" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12.5" xml:space="preserve"><tspan fill="#6f7a74">data     </tspan><tspan fill="#c3ccc7">MySQL · Redis · Kafka · Elasticsearch</tspan></text>
+<text x="34" y="306" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12.5" xml:space="preserve"><tspan fill="#6f7a74">infra    </tspan><tspan fill="#c3ccc7">Docker · Kubernetes · GitHub Actions</tspan></text>
+<text x="34" y="354" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" xml:space="preserve"><tspan fill="#4ebe7d">$ </tspan><tspan fill="#e6ebe8">ls projects/</tspan><tspan fill="#6f7a74">  # 직접 만들어 운영하고 있는 서비스</tspan></text>
+<svg x="34.0" y="372" width="261.33" height="208.67" viewBox="0 0 268 214">
+<rect x="5" y="5" width="262" height="208" rx="8" fill="#115531"/>
+<rect x="1" y="1" width="262" height="208" rx="8" fill="#151b18" stroke="#e6ebe8" stroke-width="1.2"/>
+<text font-weight="700" x="20" y="38" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" xml:space="preserve"><tspan fill="#e6ebe8">또렷</tspan><tspan fill="#4ebe7d"> ↗</tspan></text>
+<text x="20" y="62" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="11.5" font-weight="600" fill="#4ebe7d" text-anchor="start">읽은 것이 사라지지 않는 브라우저</text>
+<text x="20" y="92" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">다시 볼 페이지는 책갈피로,</text>
+<text x="20" y="113" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">중요한 구절은 형광펜으로 남기는</text>
+<text x="20" y="134" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">크롬 익스텐션. 가입 없이</text>
+<text x="20" y="155" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">온디바이스로 동작합니다.</text>
+<rect x="20.5" y="170.5" width="86" height="22" rx="11" fill="none" stroke="#2a322e" stroke-width="1.2"/>
+<text x="63.0" y="185" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#98a29c" text-anchor="middle">Chrome Ext</text>
+<rect x="112.5" y="170.5" width="71" height="22" rx="11" fill="none" stroke="#2a322e" stroke-width="1.2"/>
+<text x="147.5" y="185" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#98a29c" text-anchor="middle">온디바이스</text>
+</svg>
+
+<svg x="309.3333333333333" y="372" width="261.33" height="208.67" viewBox="0 0 268 214">
+<rect x="5" y="5" width="262" height="208" rx="8" fill="#115531"/>
+<rect x="1" y="1" width="262" height="208" rx="8" fill="#151b18" stroke="#e6ebe8" stroke-width="1.2"/>
+<text font-weight="700" x="20" y="38" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" xml:space="preserve"><tspan fill="#e6ebe8">내용</tspan><tspan fill="#4ebe7d"> ↗</tspan></text>
+<text x="20" y="62" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="11.5" font-weight="600" fill="#4ebe7d" text-anchor="start">문서 작성 마법사</text>
+<text x="20" y="92" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">내용증명, 차용증, 합의서 같은</text>
+<text x="20" y="113" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">문서를 질문 몇 개에 답하면</text>
+<text x="20" y="134" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">격식 갖춰 완성해 줍니다. 입력은</text>
+<text x="20" y="155" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">브라우저 밖으로 나가지 않습니다.</text>
+<rect x="20.5" y="170.5" width="78" height="22" rx="11" fill="none" stroke="#2a322e" stroke-width="1.2"/>
+<text x="59.0" y="185" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#98a29c" text-anchor="middle">문서 자동화</text>
+<rect x="104.5" y="170.5" width="100" height="22" rx="11" fill="none" stroke="#2a322e" stroke-width="1.2"/>
+<text x="154.0" y="185" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#98a29c" text-anchor="middle">클라이언트 처리</text>
+</svg>
+
+<svg x="584.6666666666666" y="372" width="261.33" height="208.67" viewBox="0 0 268 214">
+<rect x="5" y="5" width="262" height="208" rx="8" fill="#115531"/>
+<rect x="1" y="1" width="262" height="208" rx="8" fill="#151b18" stroke="#e6ebe8" stroke-width="1.2"/>
+<text font-weight="700" x="20" y="38" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" xml:space="preserve"><tspan fill="#e6ebe8">BTC 레이더</tspan><tspan fill="#4ebe7d"> ↗</tspan></text>
+<text x="20" y="62" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="11.5" font-weight="600" fill="#4ebe7d" text-anchor="start">비트코인 투자 타이밍 지표</text>
+<text x="20" y="92" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">RSI, MVRV-Z, SOPR, 공포탐욕지수,</text>
+<text x="20" y="113" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">펀딩비 등 시장 지표 25개 이상을</text>
+<text x="20" y="134" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">매일 모아 한 화면에 보여 주는</text>
+<text x="20" y="155" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">대시보드. Claude Code와 함께 설계.</text>
+<rect x="20.5" y="170.5" width="93" height="22" rx="11" fill="none" stroke="#2a322e" stroke-width="1.2"/>
+<text x="66.5" y="185" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#98a29c" text-anchor="middle">Spring Boot</text>
+<rect x="119.5" y="170.5" width="60" height="22" rx="11" fill="none" stroke="#2a322e" stroke-width="1.2"/>
+<text x="149.0" y="185" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#98a29c" text-anchor="middle">헥사고날</text>
+</svg>
+
+<text x="34" y="614.67" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" xml:space="preserve"><tspan fill="#4ebe7d">$ </tspan><tspan fill="#e6ebe8">ls repos/</tspan><tspan fill="#6f7a74">  # 만들고 있는 것</tspan></text>
+<svg x="34.0" y="632.67" width="261.33" height="208.67" viewBox="0 0 268 214">
+<rect x="5" y="5" width="262" height="208" rx="8" fill="#115531"/>
+<rect x="1" y="1" width="262" height="208" rx="8" fill="#151b18" stroke="#e6ebe8" stroke-width="1.2"/>
+<text font-weight="700" x="20" y="38" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" xml:space="preserve"><tspan fill="#e6ebe8">running</tspan><tspan fill="#4ebe7d"> ↗</tspan></text>
+<text x="20" y="62" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="11.5" font-weight="600" fill="#4ebe7d" text-anchor="start">러닝 크루 앱</text>
+<rect x="190" y="22" width="58" height="20" rx="10" fill="none" stroke="#4ebe7d" stroke-opacity=".6"/>
+<text x="219" y="36" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="11" font-weight="500" fill="#4ebe7d" text-anchor="middle">개발 중</text>
+<text x="20" y="92" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">GPS 트랙을 서버에서 검증해</text>
+<text x="20" y="113" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">완주 여부와 순위를 확정합니다.</text>
+<text x="20" y="134" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">트랙 정제·순위 계산은 순수 함수,</text>
+<text x="20" y="155" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">골든 테스트 175케이스.</text>
+<rect x="20.5" y="170.5" width="65" height="22" rx="11" fill="none" stroke="#2a322e" stroke-width="1.2"/>
+<text x="52.5" y="185" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#98a29c" text-anchor="middle">Java 25</text>
+<rect x="91.5" y="170.5" width="65" height="22" rx="11" fill="none" stroke="#2a322e" stroke-width="1.2"/>
+<text x="123.5" y="185" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#98a29c" text-anchor="middle">Flutter</text>
+</svg>
+
+<svg x="309.3333333333333" y="632.67" width="261.33" height="208.67" viewBox="0 0 268 214">
+<rect x="5" y="5" width="262" height="208" rx="8" fill="#115531"/>
+<rect x="1" y="1" width="262" height="208" rx="8" fill="#151b18" stroke="#e6ebe8" stroke-width="1.2"/>
+<text font-weight="700" x="20" y="38" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" xml:space="preserve"><tspan fill="#e6ebe8">interview-connect</tspan><tspan fill="#4ebe7d"> ↗</tspan></text>
+<text x="20" y="62" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="11.5" font-weight="600" fill="#4ebe7d" text-anchor="start">면접 경험 연결 플랫폼</text>
+<rect x="190" y="22" width="58" height="20" rx="10" fill="none" stroke="#4ebe7d" stroke-opacity=".6"/>
+<text x="219" y="36" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="11" font-weight="500" fill="#4ebe7d" text-anchor="middle">개발 중</text>
+<text x="20" y="92" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">면접을 먼저 본 사람과</text>
+<text x="20" y="113" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">준비하는 사람을 이어 줍니다.</text>
+<text x="20" y="134" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">설계→테스트→구현 순서의 TDD.</text>
+<rect x="20.5" y="170.5" width="58" height="22" rx="11" fill="none" stroke="#2a322e" stroke-width="1.2"/>
+<text x="49.0" y="185" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#98a29c" text-anchor="middle">Spring</text>
+<rect x="84.5" y="170.5" width="65" height="22" rx="11" fill="none" stroke="#2a322e" stroke-width="1.2"/>
+<text x="116.5" y="185" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#98a29c" text-anchor="middle">Next.js</text>
+</svg>
+
+<svg x="584.6666666666666" y="632.67" width="261.33" height="208.67" viewBox="0 0 268 214">
+<rect x="5" y="5" width="262" height="208" rx="8" fill="#115531"/>
+<rect x="1" y="1" width="262" height="208" rx="8" fill="#151b18" stroke="#e6ebe8" stroke-width="1.2"/>
+<text font-weight="700" x="20" y="38" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" xml:space="preserve"><tspan fill="#e6ebe8">tech-blog</tspan><tspan fill="#4ebe7d"> ↗</tspan></text>
+<text x="20" y="62" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="11.5" font-weight="600" fill="#4ebe7d" text-anchor="start">코징의 개발탐방</text>
+<rect x="190" y="22" width="58" height="20" rx="10" fill="none" stroke="#4ebe7d" stroke-opacity=".6"/>
+<text x="219" y="36" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="11" font-weight="500" fill="#4ebe7d" text-anchor="middle">공개</text>
+<text x="20" y="92" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">지금 이 블로그의 저장소입니다.</text>
+<text x="20" y="113" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">Java, Spring, DB, 아키텍처 글</text>
+<text x="20" y="134" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">231편과 연재 18종. 댓글은</text>
+<text x="20" y="155" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="12.5" font-weight="400" fill="#c3ccc7" text-anchor="start">GitHub Discussions로 받습니다.</text>
+<rect x="20.5" y="170.5" width="100" height="22" rx="11" fill="none" stroke="#2a322e" stroke-width="1.2"/>
+<text x="70.0" y="185" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#98a29c" text-anchor="middle">GitHub Pages</text>
+<rect x="126.5" y="170.5" width="58" height="22" rx="11" fill="none" stroke="#2a322e" stroke-width="1.2"/>
+<text x="155.0" y="185" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11" font-weight="400" fill="#98a29c" text-anchor="middle">giscus</text>
+</svg>
+
+<svg x="34" y="871.3399999999999" width="812" height="378.93" viewBox="0 0 840 392">
+<rect x="0.5" y="0.5" width="839" height="391" rx="8" fill="#0f1412" stroke="#2a322e"/>
+<text x="20" y="32" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" xml:space="preserve"><tspan fill="#4ebe7d">$ </tspan><tspan fill="#e6ebe8">ls -lt posts/ | head -5</tspan><tspan fill="#6f7a74">  # 최근 글</tspan></text>
+<text x="20" y="72" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" xml:space="preserve"><tspan fill="#4ebe7d">Java · JVM</tspan><tspan fill="#6f7a74">  2026.10.23</tspan></text>
+<text x="20" y="97" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" font-weight="600" fill="#e6ebe8" text-anchor="start">SimpleDateFormat 동시성 문제부터 불변 객체까지</text>
+<path d="M20 114H820" stroke="#2a322e" stroke-dasharray="3 4"/>
+<text x="20" y="138" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" xml:space="preserve"><tspan fill="#4ebe7d">Spring</tspan><tspan fill="#6f7a74">  2026.10.17</tspan></text>
+<text x="20" y="163" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" font-weight="600" fill="#e6ebe8" text-anchor="start">Spring Session Redis에서 중복 로그인이 막히지 않는 원인</text>
+<path d="M20 180H820" stroke="#2a322e" stroke-dasharray="3 4"/>
+<text x="20" y="204" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" xml:space="preserve"><tspan fill="#4ebe7d">Database</tspan><tspan fill="#6f7a74">  2026.10.09</tspan></text>
+<text x="20" y="229" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" font-weight="600" fill="#e6ebe8" text-anchor="start">MySQL DATETIME과 TIMESTAMP</text>
+<path d="M20 246H820" stroke="#2a322e" stroke-dasharray="3 4"/>
+<text x="20" y="270" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" xml:space="preserve"><tspan fill="#4ebe7d">Java · JVM</tspan><tspan fill="#6f7a74">  2026.10.05</tspan></text>
+<text x="20" y="295" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" font-weight="600" fill="#e6ebe8" text-anchor="start">데드락의 네 가지 조건과 해결 전략</text>
+<path d="M20 312H820" stroke="#2a322e" stroke-dasharray="3 4"/>
+<text x="20" y="336" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" xml:space="preserve"><tspan fill="#4ebe7d">Elasticsearch</tspan><tspan fill="#6f7a74">  2026.08.30</tspan></text>
+<text x="20" y="361" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" font-weight="600" fill="#e6ebe8" text-anchor="start">ElasticSearch를 도입하게 된 이유</text>
+</svg>
+
+<svg x="34" y="1280.27" width="812" height="253.27" viewBox="0 0 840 262">
+<rect x="0.5" y="0.5" width="839" height="261" rx="8" fill="#0f1412" stroke="#2a322e"/>
+<text x="20" y="32" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" xml:space="preserve"><tspan fill="#4ebe7d">$ </tspan><tspan fill="#e6ebe8">ls -l categories/</tspan><tspan fill="#6f7a74">  # 주제별 글 수</tspan></text>
+<text x="20.0" y="70" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11.5" font-weight="600" fill="#4ebe7d" text-anchor="start">언어 &amp; 백엔드</text>
+<text x="20.0" y="98" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">Spring</text>
+<text x="258.6666666666667" y="98" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">48</text>
+<text x="20.0" y="124" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">Spring JPA</text>
+<text x="258.6666666666667" y="124" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">36</text>
+<text x="20.0" y="150" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">Java · JVM</text>
+<text x="258.6666666666667" y="150" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">27</text>
+<text x="20.0" y="176" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">알고리즘</text>
+<text x="258.6666666666667" y="176" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">11</text>
+<text x="20.0" y="202" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">객체지향 · 설계</text>
+<text x="258.6666666666667" y="202" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">8</text>
+<text x="20.0" y="228" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">테스트</text>
+<text x="258.6666666666667" y="228" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">3</text>
+<text x="286.6666666666667" y="70" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11.5" font-weight="600" fill="#4ebe7d" text-anchor="start">데이터 &amp; 인프라</text>
+<text x="286.6666666666667" y="98" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">Database</text>
+<text x="525.3333333333334" y="98" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">15</text>
+<text x="286.6666666666667" y="124" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">Elasticsearch</text>
+<text x="525.3333333333334" y="124" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">10</text>
+<text x="286.6666666666667" y="150" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">Kafka</text>
+<text x="525.3333333333334" y="150" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">7</text>
+<text x="286.6666666666667" y="176" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">AI 협업 개발</text>
+<text x="525.3333333333334" y="176" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">6</text>
+<text x="286.6666666666667" y="202" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">네트워크 · HTTP</text>
+<text x="525.3333333333334" y="202" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">5</text>
+<text x="286.6666666666667" y="228" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">인프라 · 컨테이너</text>
+<text x="525.3333333333334" y="228" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">3</text>
+<text x="553.3333333333334" y="70" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="11.5" font-weight="600" fill="#4ebe7d" text-anchor="start">책 &amp; 기록</text>
+<text x="553.3333333333334" y="98" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">클린 코드 with Java</text>
+<text x="792.0" y="98" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">16</text>
+<text x="553.3333333333334" y="124" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">Clean Code</text>
+<text x="792.0" y="124" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">11</text>
+<text x="553.3333333333334" y="150" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">도메인 주도 개발 시작하기</text>
+<text x="792.0" y="150" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">10</text>
+<text x="553.3333333333334" y="176" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">만들면서 배우는 클린 아키텍처</text>
+<text x="792.0" y="176" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">8</text>
+<text x="553.3333333333334" y="202" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">회고</text>
+<text x="792.0" y="202" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">6</text>
+<text x="553.3333333333334" y="228" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="13.5" font-weight="400" fill="#c3ccc7" text-anchor="start">Git · 협업</text>
+<text x="792.0" y="228" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" font-weight="400" fill="#6f7a74" text-anchor="end">1</text>
+</svg>
+
+<path d="M1 1563.54H879" stroke="#2a322e"/>
+<path d="M1 1563.54H879V1587.54a9 9 0 0 1-9 9H10a9 9 0 0 1-9-9Z" fill="#080b0a"/>
+<circle cx="20" cy="1580.54" r="4" fill="#4ebe7d"/>
+<text x="32" y="1584.54" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" xml:space="preserve"><tspan fill="#e6ebe8">main</tspan><tspan fill="#98a29c">   231 posts</tspan><tspan fill="#98a29c">   UTF-8</tspan><tspan fill="#98a29c">   LF</tspan></text>
+<text x="860" y="1584.54" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" font-weight="400" fill="#98a29c" text-anchor="end">© 2026 코징</text>
+</svg>

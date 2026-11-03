@@ -1,8 +1,9 @@
-"""README에 들어가는 SVG를 생성한다. 색상은 tech-blog 다크 테마 CSS 변수와 같다.
+"""README에 들어가는 터미널 창 SVG(assets/profile.svg)를 생성한다. 색상은 tech-blog 다크 테마 CSS 변수와 같다.
 
     python3 scripts/build_svg.py
 """
 import math
+import re
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -40,6 +41,8 @@ SHADOW = oklch(0.4, 0.09, 155)
 MONO = "'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace"
 SANS = "'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif"
 W = 840
+WIN = 880
+PAD = 34
 
 
 def svg(w, h, body):
@@ -64,35 +67,39 @@ def grid(w, h):
 
 
 def header():
-    h = 318
-    b = [grid(W, h),
-         f'<rect x="0.5" y="0.5" width="{W - 1}" height="{h - 1}" rx="10" fill="{BG}" stroke="{INK}" stroke-opacity=".55"/>',
-         f'<path d="M1 38H{W - 1}" stroke="{INK}" stroke-opacity=".35"/>']
-    for i, c in enumerate(["#ff5f57", "#febc2e", "#28c840"]):
-        b.append(f'<circle cx="{20 + i * 19}" cy="19" r="6" fill="{c}"/>')
-    b.append(text(W / 2, 24, "~/qkrxodud — zsh", 12, MUTED, MONO, anchor="middle"))
-    b.append(spans(34, 76, [("➜ ", ACCENT), ("~/qkrxodud ", MUTED), ("git:(", FAINT), ("main", ACCENT), (")", FAINT)]))
-    b.append(text(34, 114, "박태영 · 코징", 28, INK, SANS, 700))
-    b.append(text(34, 144, "// Java, Spring, 데이터베이스를 파고드는 백엔드 개발자", 13, MUTED, MONO))
-    b.append(f'<rect x="34.5" y="164.5" width="{W - 69}" height="38" rx="6" fill="none" '
-             f'stroke="{LINE}" stroke-dasharray="4 4"/>')
-    b.append(f'<circle cx="54" cy="184" r="4" fill="{ACCENT}"/>')
-    b.append(spans(68, 188, [("블로그 글 ", MUTED), ("231", INK), ("편  ·  연재 ", MUTED), ("18", INK),
-                             ("종  ·  ", MUTED), ("2022", INK), ("년부터 기록 중", MUTED)], 13, SANS))
-    b.append(spans(34, 236, [("$ ", ACCENT), ("cat stack.txt", INK)]))
+    """창 프레임 없이 헤더 내용만. y는 창 맨 위 기준."""
+    b = [spans(PAD, 76, [("➜ ", ACCENT), ("~/qkrxodud ", MUTED), ("git:(", FAINT), ("main", ACCENT), (")", FAINT)]),
+         spans(WIN - PAD, 76, [("blog", BODY), ("   repos", BODY), ("   posts", BODY), ("   mail", BODY)], 13, SANS)
+         .replace("<text ", '<text text-anchor="end" ', 1),
+         text(PAD, 114, "박태영 · 코징", 28, INK, SANS, 700),
+         text(PAD, 144, "// Java, Spring, 데이터베이스를 파고드는 백엔드 개발자", 13, MUTED, MONO),
+         f'<rect x="{PAD + 0.5}" y="164.5" width="{WIN - PAD * 2 - 1}" height="38" rx="6" fill="none" '
+         f'stroke="{LINE}" stroke-dasharray="4 4"/>',
+         f'<circle cx="{PAD + 20}" cy="184" r="4" fill="{ACCENT}"/>',
+         spans(PAD + 34, 188, [("블로그 글 ", MUTED), ("231", INK), ("편  ·  연재 ", MUTED), ("18", INK),
+                               ("종  ·  ", MUTED), ("2022", INK), ("년부터 기록 중", MUTED)], 13, SANS),
+         prompt("cat stack.txt", None, 240)]
     rows = [("backend", "Java · Spring Boot · JPA · MyBatis · WebFlux"),
             ("data", "MySQL · Redis · Kafka · Elasticsearch"),
             ("infra", "Docker · Kubernetes · GitHub Actions")]
     for i, (k, v) in enumerate(rows):
-        b.append(spans(34, 262 + i * 20, [(f"{k:<9}", FAINT), (v, BODY)], 12.5))
-    return svg(W, h, "\n".join(b))
+        b.append(spans(PAD, 266 + i * 20, [(f"{k:<9}", FAINT), (v, BODY)], 12.5))
+    return b, 320
 
 
-def prompt(cmd, comment):
+def prompt(cmd, comment, y):
     parts = [("$ ", ACCENT), (cmd, INK)]
     if comment:
         parts.append((f"  # {comment}", FAINT))
-    return svg(W, 40, f'<rect width="{W}" height="40" rx="6" fill="{BG}"/>' + spans(16, 25, parts))
+    return spans(PAD, y, parts)
+
+
+def place(child, x, y, w):
+    """독립 SVG 문자열을 중첩 <svg>로 배치하고 (요소, 높이)를 돌려준다."""
+    m = re.match(r'<svg xmlns="[^"]+" width="([\d.]+)" height="([\d.]+)" viewBox="([^"]+)">', child)
+    ow, oh = float(m.group(1)), float(m.group(2))
+    h = round(oh * w / ow, 2)
+    return child.replace(m.group(0), f'<svg x="{x}" y="{y}" width="{w}" height="{h}" viewBox="{m.group(3)}">', 1), h
 
 
 CW, CH = 268, 214
@@ -147,15 +154,6 @@ def categories(groups):
     return svg(W, h, "\n".join(b))
 
 
-def status():
-    h = 34
-    b = [f'<rect width="{W}" height="{h}" rx="6" fill="{STATUS_BG}" stroke="{LINE}"/>',
-         f'<circle cx="18" cy="17" r="4" fill="{ACCENT}"/>',
-         spans(30, 21, [("main", INK), ("   231 posts", MUTED), ("   UTF-8", MUTED), ("   LF", MUTED)], 12),
-         text(W - 16, 21, "© 2026 코징", 12, MUTED, MONO, anchor="end")]
-    return svg(W, h, "\n".join(b))
-
-
 CARDS = {
     "ttoryeot": ("또렷", "읽은 것이 사라지지 않는 브라우저",
                  ["다시 볼 페이지는 책갈피로,", "중요한 구절은 형광펜으로 남기는", "크롬 익스텐션. 가입 없이", "온디바이스로 동작합니다."],
@@ -194,22 +192,57 @@ POSTS = [
     ("es-intro", "2026.08.30", "Elasticsearch", "ElasticSearch를 도입하게 된 이유"),
 ]
 
-PROMPTS = {
-    "projects": ("ls projects/", "직접 만들어 운영하고 있는 서비스"),
-    "repos": ("ls repos/", "만들고 있는 것"),
-}
+def window():
+    inner = WIN - PAD * 2
+    gap = 14
+    cw = (inner - gap * 2) / 3
+    body, y = header()
+
+    def section(cmd, comment, keys):
+        nonlocal y
+        y += 34
+        body.append(prompt(cmd, comment, y))
+        y += 18
+        h = 0
+        for i, k in enumerate(keys):
+            el, h = place(card(*CARDS[k]), PAD + i * (cw + gap), y, round(cw, 2))
+            body.append(el)
+        y += h
+
+    def panel(child):
+        nonlocal y
+        y += 30
+        el, h = place(child, PAD, y, inner)
+        body.append(el)
+        y += h
+
+    section("ls projects/", "직접 만들어 운영하고 있는 서비스", ["ttoryeot", "naeyong", "btc"])
+    section("ls repos/", "만들고 있는 것", ["running", "interview", "techblog"])
+    panel(posts(POSTS))
+    panel(categories(CATEGORIES))
+    y += 30
+    sb = 34
+    h = y + sb
+    frame = [grid(WIN, h),
+             f'<rect x="0.5" y="0.5" width="{WIN - 1}" height="{h - 1}" rx="10" fill="none" stroke="{INK}" stroke-opacity=".55"/>',
+             f'<path d="M1 38H{WIN - 1}" stroke="{INK}" stroke-opacity=".35"/>',
+             text(WIN / 2, 24, "~/qkrxodud — zsh", 12, MUTED, MONO, anchor="middle")]
+    frame += [f'<circle cx="{20 + i * 19}" cy="19" r="6" fill="{c}"/>'
+              for i, c in enumerate(["#ff5f57", "#febc2e", "#28c840"])]
+    footer = [f'<path d="M1 {y}H{WIN - 1}" stroke="{LINE}"/>',
+              f'<path d="M1 {y}H{WIN - 1}V{h - 10}a9 9 0 0 1-9 9H10a9 9 0 0 1-9-9Z" fill="{STATUS_BG}"/>',
+              f'<circle cx="{PAD - 14}" cy="{y + 17}" r="4" fill="{ACCENT}"/>',
+              spans(PAD - 2, y + 21, [("main", INK), ("   231 posts", MUTED), ("   UTF-8", MUTED), ("   LF", MUTED)], 12),
+              text(WIN - PAD + 14, y + 21, "© 2026 코징", 12, MUTED, MONO, anchor="end")]
+    return svg(WIN, h, "\n".join(frame + body + footer))
 
 
 def main():
     OUT.mkdir(exist_ok=True)
-    files = {"header.svg": header(), "status.svg": status()}
-    files |= {f"section-{k}.svg": prompt(*v) for k, v in PROMPTS.items()}
-    files |= {f"card-{k}.svg": card(*v) for k, v in CARDS.items()}
-    files["posts.svg"] = posts(POSTS)
-    files["categories.svg"] = categories(CATEGORIES)
-    for name, body in files.items():
-        (OUT / name).write_text(body, encoding="utf-8")
-    print(f"{len(files)} files -> {OUT}")
+    for old in OUT.glob("*.svg"):
+        old.unlink()
+    (OUT / "profile.svg").write_text(window(), encoding="utf-8")
+    print(f"-> {OUT / 'profile.svg'}")
 
 
 if __name__ == "__main__":
