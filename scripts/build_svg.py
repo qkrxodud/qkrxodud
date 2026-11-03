@@ -92,7 +92,7 @@ def prompt(cmd, comment):
     parts = [("$ ", ACCENT), (cmd, INK)]
     if comment:
         parts.append((f"  # {comment}", FAINT))
-    return svg(W, 34, spans(2, 22, parts))
+    return svg(W, 40, f'<rect width="{W}" height="40" rx="6" fill="{BG}"/>' + spans(16, 25, parts))
 
 
 CW, CH = 268, 214
@@ -117,11 +117,17 @@ def card(name, sub, lines, tags, badge=None):
     return svg(CW, CH, "\n".join(b))
 
 
-def post(date, cat, title):
-    h = 66
-    b = [spans(2, 20, [(cat, ACCENT), (f"  {date}", FAINT)], 12),
-         text(2, 46, escape(title), 17, INK, SANS, 600),
-         f'<path d="M2 {h - 4}H{W - 2}" stroke="{LINE}" stroke-dasharray="3 4"/>']
+def posts(items):
+    row = 66
+    h = 52 + row * len(items) + 10
+    b = [f'<rect x="0.5" y="0.5" width="{W - 1}" height="{h - 1}" rx="8" fill="{BG}" stroke="{LINE}"/>',
+         spans(20, 32, [("$ ", ACCENT), ("ls -lt posts/ | head -5", INK), ("  # 최근 글", FAINT)])]
+    for i, (_, date, cat, title) in enumerate(items):
+        y = 52 + i * row
+        b.append(spans(20, y + 20, [(cat, ACCENT), (f"  {date}", FAINT)], 12))
+        b.append(text(20, y + 45, escape(title), 17, INK, SANS, 600))
+        if i < len(items) - 1:
+            b.append(f'<path d="M20 {y + row - 4}H{W - 20}" stroke="{LINE}" stroke-dasharray="3 4"/>')
     return svg(W, h, "\n".join(b))
 
 
@@ -163,7 +169,6 @@ POSTS = [
 PROMPTS = {
     "projects": ("ls projects/", "직접 만들어 운영하고 있는 서비스"),
     "wip": ("ls wip/", "만들고 있는 것"),
-    "posts": ("ls -lt posts/ | head -5", "최근 글"),
 }
 
 
@@ -172,7 +177,7 @@ def main():
     files = {"header.svg": header(), "status.svg": status()}
     files |= {f"prompt-{k}.svg": prompt(*v) for k, v in PROMPTS.items()}
     files |= {f"card-{k}.svg": card(*v) for k, v in CARDS.items()}
-    files |= {f"post-{k}.svg": post(d, c, t) for k, d, c, t in POSTS}
+    files["posts.svg"] = posts(POSTS)
     for name, body in files.items():
         (OUT / name).write_text(body, encoding="utf-8")
     print(f"{len(files)} files -> {OUT}")

@@ -17,13 +17,7 @@
 <a href="https://github.com/qkrxodud/interview-connect"><img src="assets/card-interview.svg" width="32%" alt="interview-connect"></a>
 </p>
 
-<img src="assets/prompt-posts.svg" width="100%" alt="$ ls -lt posts/">
-
-<a href="https://qkrxodud.github.io/tech-blog/posts/simpledateformat-thread-safety/"><img src="assets/post-simpledateformat.svg" width="100%" alt="SimpleDateFormat 동시성 문제부터 불변 객체까지"></a>
-<a href="https://qkrxodud.github.io/tech-blog/posts/spring-session-registry-redis/"><img src="assets/post-session-registry.svg" width="100%" alt="Spring Session Redis에서 중복 로그인이 막히지 않는 원인"></a>
-<a href="https://qkrxodud.github.io/tech-blog/posts/mysql-datetime-timestamp/"><img src="assets/post-datetime.svg" width="100%" alt="MySQL DATETIME과 TIMESTAMP"></a>
-<a href="https://qkrxodud.github.io/tech-blog/posts/deadlock/"><img src="assets/post-deadlock.svg" width="100%" alt="데드락의 네 가지 조건과 해결 전략"></a>
-<a href="https://qkrxodud.github.io/tech-blog/posts/es-intro/"><img src="assets/post-es-intro.svg" width="100%" alt="ElasticSearch를 도입하게 된 이유"></a>
+<a href="https://qkrxodud.github.io/tech-blog/"><img src="assets/posts.svg" width="100%" alt="최근 글: SimpleDateFormat 동시성 문제부터 불변 객체까지 외 4편"></a>
 
 <details>
 <summary><code>$ ls archive/</code></summary>

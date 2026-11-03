@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="392" viewBox="0 0 840 392">
+<rect x="0.5" y="0.5" width="839" height="391" rx="8" fill="#0f1412" stroke="#2a322e"/>
+<text x="20" y="32" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="13" xml:space="preserve"><tspan fill="#4ebe7d">$ </tspan><tspan fill="#e6ebe8">ls -lt posts/ | head -5</tspan><tspan fill="#6f7a74">  # 최근 글</tspan></text>
+<text x="20" y="72" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" xml:space="preserve"><tspan fill="#4ebe7d">Java · JVM</tspan><tspan fill="#6f7a74">  2026.10.23</tspan></text>
+<text x="20" y="97" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" font-weight="600" fill="#e6ebe8" text-anchor="start">SimpleDateFormat 동시성 문제부터 불변 객체까지</text>
+<path d="M20 114H820" stroke="#2a322e" stroke-dasharray="3 4"/>
+<text x="20" y="138" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" xml:space="preserve"><tspan fill="#4ebe7d">Spring</tspan><tspan fill="#6f7a74">  2026.10.17</tspan></text>
+<text x="20" y="163" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" font-weight="600" fill="#e6ebe8" text-anchor="start">Spring Session Redis에서 중복 로그인이 막히지 않는 원인</text>
+<path d="M20 180H820" stroke="#2a322e" stroke-dasharray="3 4"/>
+<text x="20" y="204" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" xml:space="preserve"><tspan fill="#4ebe7d">Database</tspan><tspan fill="#6f7a74">  2026.10.09</tspan></text>
+<text x="20" y="229" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" font-weight="600" fill="#e6ebe8" text-anchor="start">MySQL DATETIME과 TIMESTAMP</text>
+<path d="M20 246H820" stroke="#2a322e" stroke-dasharray="3 4"/>
+<text x="20" y="270" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" xml:space="preserve"><tspan fill="#4ebe7d">Java · JVM</tspan><tspan fill="#6f7a74">  2026.10.05</tspan></text>
+<text x="20" y="295" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" font-weight="600" fill="#e6ebe8" text-anchor="start">데드락의 네 가지 조건과 해결 전략</text>
+<path d="M20 312H820" stroke="#2a322e" stroke-dasharray="3 4"/>
+<text x="20" y="336" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace" font-size="12" xml:space="preserve"><tspan fill="#4ebe7d">Elasticsearch</tspan><tspan fill="#6f7a74">  2026.08.30</tspan></text>
+<text x="20" y="361" font-family="'IBM Plex Sans KR','Apple SD Gothic Neo','Noto Sans KR','Malgun Gothic',sans-serif" font-size="17" font-weight="600" fill="#e6ebe8" text-anchor="start">ElasticSearch를 도입하게 된 이유</text>
+</svg>
