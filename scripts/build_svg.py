@@ -131,6 +131,22 @@ def posts(items):
     return svg(W, h, "\n".join(b))
 
 
+def categories(groups):
+    rows = max(len(items) for _, items in groups)
+    h = 92 + rows * 26 + 14
+    col = (W - 40) / len(groups)
+    b = [f'<rect x="0.5" y="0.5" width="{W - 1}" height="{h - 1}" rx="8" fill="{BG}" stroke="{LINE}"/>',
+         spans(20, 32, [("$ ", ACCENT), ("ls -l categories/", INK), ("  # 주제별 글 수", FAINT)])]
+    for i, (title, items) in enumerate(groups):
+        x = 20 + i * col
+        b.append(text(x, 70, escape(title), 11.5, ACCENT, MONO, 600))
+        for j, (name, n) in enumerate(items):
+            y = 98 + j * 26
+            b.append(text(x, y, escape(name), 13.5, BODY))
+            b.append(text(x + col - 28, y, str(n), 13, FAINT, MONO, anchor="end"))
+    return svg(W, h, "\n".join(b))
+
+
 def status():
     h = 34
     b = [f'<rect width="{W}" height="{h}" rx="6" fill="{STATUS_BG}" stroke="{LINE}"/>',
@@ -148,7 +164,7 @@ CARDS = {
                 ["내용증명, 차용증, 합의서 같은", "문서를 질문 몇 개에 답하면", "격식 갖춰 완성해 줍니다. 입력은", "브라우저 밖으로 나가지 않습니다."],
                 ["문서 자동화", "클라이언트 처리"], None),
     "btc": ("BTC 레이더", "비트코인 투자 타이밍 지표",
-            ["MVRV-Z, SOPR, 펀딩비 등", "시장 지표 25개 이상을 매일 모아", "한 화면에 보여 주는 대시보드."],
+            ["RSI, MVRV-Z, SOPR, 공포탐욕지수,", "펀딩비 등 시장 지표 25개 이상을", "매일 모아 한 화면에 보여 주는", "대시보드. Claude Code와 함께 설계."],
             ["Spring Boot", "헥사고날"], None),
     "running": ("running", "러닝 크루 앱",
                 ["GPS 트랙을 서버에서 검증해", "완주 여부와 순위를 확정합니다.", "트랙 정제·순위 계산은 순수 함수,", "골든 테스트 175케이스."],
@@ -156,7 +172,19 @@ CARDS = {
     "interview": ("interview-connect", "면접 경험 연결 플랫폼",
                   ["면접을 먼저 본 사람과", "준비하는 사람을 이어 줍니다.", "설계→테스트→구현 순서의 TDD."],
                   ["Spring", "Next.js"], "개발 중"),
+    "techblog": ("tech-blog", "코징의 개발탐방",
+                 ["지금 이 블로그의 저장소입니다.", "Java, Spring, DB, 아키텍처 글", "231편과 연재 18종. 댓글은", "GitHub Discussions로 받습니다."],
+                 ["GitHub Pages", "giscus"], "공개"),
 }
+
+CATEGORIES = [
+    ("언어 & 백엔드", [("Spring", 48), ("Spring JPA", 36), ("Java · JVM", 27),
+                    ("알고리즘", 11), ("객체지향 · 설계", 8), ("테스트", 3)]),
+    ("데이터 & 인프라", [("Database", 15), ("Elasticsearch", 10), ("Kafka", 7),
+                     ("AI 협업 개발", 6), ("네트워크 · HTTP", 5), ("인프라 · 컨테이너", 3)]),
+    ("책 & 기록", [("클린 코드 with Java", 16), ("Clean Code", 11), ("도메인 주도 개발 시작하기", 10),
+                 ("만들면서 배우는 클린 아키텍처", 8), ("회고", 6), ("Git · 협업", 1)]),
+]
 
 POSTS = [
     ("simpledateformat", "2026.10.23", "Java · JVM", "SimpleDateFormat 동시성 문제부터 불변 객체까지"),
@@ -168,16 +196,17 @@ POSTS = [
 
 PROMPTS = {
     "projects": ("ls projects/", "직접 만들어 운영하고 있는 서비스"),
-    "wip": ("ls wip/", "만들고 있는 것"),
+    "repos": ("ls repos/", "만들고 있는 것"),
 }
 
 
 def main():
     OUT.mkdir(exist_ok=True)
     files = {"header.svg": header(), "status.svg": status()}
-    files |= {f"prompt-{k}.svg": prompt(*v) for k, v in PROMPTS.items()}
+    files |= {f"section-{k}.svg": prompt(*v) for k, v in PROMPTS.items()}
     files |= {f"card-{k}.svg": card(*v) for k, v in CARDS.items()}
     files["posts.svg"] = posts(POSTS)
+    files["categories.svg"] = categories(CATEGORIES)
     for name, body in files.items():
         (OUT / name).write_text(body, encoding="utf-8")
     print(f"{len(files)} files -> {OUT}")

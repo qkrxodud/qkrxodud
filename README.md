@@ -1,23 +1,16 @@
 <a href="https://qkrxodud.github.io/tech-blog/"><img src="assets/header.svg" width="100%" alt="박태영 · 코징 — Java, Spring, 데이터베이스를 파고드는 백엔드 개발자"></a>
 
-<br>
+<img src="assets/section-projects.svg" width="100%" alt="$ ls projects/">
 
-<img src="assets/prompt-projects.svg" width="100%" alt="$ ls projects/">
+<p><a href="https://qkrxodud.github.io/easy-read/"><img src="assets/card-ttoryeot.svg" width="33%" alt="또렷"></a><a href="https://naeyong.co.kr"><img src="assets/card-naeyong.svg" width="33%" alt="내용"></a><a href="https://btctiming.co.kr"><img src="assets/card-btc.svg" width="33%" alt="BTC 레이더"></a></p>
 
-<p>
-<a href="https://qkrxodud.github.io/easy-read/"><img src="assets/card-ttoryeot.svg" width="32%" alt="또렷"></a>
-<a href="https://naeyong.co.kr"><img src="assets/card-naeyong.svg" width="32%" alt="내용"></a>
-<a href="https://btctiming.co.kr"><img src="assets/card-btc.svg" width="32%" alt="BTC 레이더"></a>
-</p>
+<img src="assets/section-repos.svg" width="100%" alt="$ ls repos/">
 
-<img src="assets/prompt-wip.svg" width="100%" alt="$ ls wip/">
-
-<p>
-<a href="https://github.com/qkrxodud/running"><img src="assets/card-running.svg" width="32%" alt="running"></a>
-<a href="https://github.com/qkrxodud/interview-connect"><img src="assets/card-interview.svg" width="32%" alt="interview-connect"></a>
-</p>
+<p><a href="https://github.com/qkrxodud/running"><img src="assets/card-running.svg" width="33%" alt="running"></a><a href="https://github.com/qkrxodud/interview-connect"><img src="assets/card-interview.svg" width="33%" alt="interview-connect"></a><a href="https://github.com/qkrxodud/tech-blog"><img src="assets/card-techblog.svg" width="33%" alt="tech-blog"></a></p>
 
 <a href="https://qkrxodud.github.io/tech-blog/"><img src="assets/posts.svg" width="100%" alt="최근 글: SimpleDateFormat 동시성 문제부터 불변 객체까지 외 4편"></a>
+
+<a href="https://qkrxodud.github.io/tech-blog/"><img src="assets/categories.svg" width="100%" alt="주제별 글 수"></a>
 
 <details>
 <summary><code>$ ls archive/</code></summary>
@@ -27,8 +20,6 @@
 - [pharmacy](https://github.com/qkrxodud/pharmacy) — 위치 기반 약국 추천. 카카오 지도 API, Redis 캐싱, Spock
 
 </details>
-
-<br>
 
 <a href="https://qkrxodud.github.io/tech-blog/"><img src="assets/status.svg" width="100%" alt="main · 231 posts"></a>
 
